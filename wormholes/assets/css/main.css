@@ -75,7 +75,7 @@ div.pictures{
 	flex-wrap: wrap;
 }
 
-div.cartoon{
+.cartoon{
 	width: 20%;
 	width: 600px;
 	margin-left:400px;
@@ -84,7 +84,7 @@ div.cartoon{
 	margin-bottom:100px;
 }
 
-div.move{
+.move{
 	animation:  move 2s alternate infinite linear;
 }
 
