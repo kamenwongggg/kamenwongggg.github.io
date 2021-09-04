@@ -84,6 +84,23 @@ div.cartoon{
 	margin-bottom:100px;
 }
 
+div.move{
+	animation:  move 2s alternate infinite linear;
+}
+
+@keyframes move{
+	0%{
+		margin-left: 30px;
+	}
+	
+	
+	100%{
+		margin-right: 20px;
+	}
+
+
+}
+
 .map{
 	display:flex;
 	flex-wrap:wrap;
@@ -153,22 +170,7 @@ div.cartoon{
 	font-size: 80px;
 }
 
-div.move{
-	animation:  move 2s alternate infinite linear;
-}
 
-@keyframes move{
-	0%{
-		margin-left: 30px;
-	}
-	
-	
-	100%{
-		margin-right: 20px;
-	}
-
-
-}
 
 
 /* smallest house page */
