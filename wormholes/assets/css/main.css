@@ -324,8 +324,9 @@ div.title{
 }
 
 div.skinny{
-	font-size:200px;
+	font-size:100px;
 	font-family:"zinc";
+	color: red;
 
 	text-align:center;	
 }
