@@ -199,12 +199,13 @@ body.smallest{
 
 .smalltext{
 	width:35%;
+	font-size: 12px;
 
 }
 
 .architecture{
 	width:30%;
-	font-size: 17px;
+	font-size: 7px;
 	margin-left: 20px;
 }
 
