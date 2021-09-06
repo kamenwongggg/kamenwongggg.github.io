@@ -375,13 +375,14 @@ div.sktitle{
 	margin-top: 140px;
 	margin-bottom: 40px;
 	width:100%;
+	color: white;
 }
 
 div.sknarrowest{
 	font-size:200px;
 	font-family:"zinc";
 	text-align:center;
-	color:lawngreen;
+	color:lightgreen;
 }
 
 .sktext{
