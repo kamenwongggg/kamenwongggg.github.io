@@ -7,3 +7,44 @@ a {
 	color:red;
 }
 
+body {
+  font-family: arial;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.small {
+  width: 25%;
+}
+
+.large {
+  width: 50%;
+  background-color: red;
+  overflow: scroll;
+  height: 100vh;
+}
+
+.text {
+  width: 50%;
+}
+
+.textandimage {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+
+.textandimage img {
+  width: 50%;
+}
+
+.textandimage .caption {
+  width: 50%;
+}
