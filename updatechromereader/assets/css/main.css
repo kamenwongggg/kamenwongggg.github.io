@@ -41,6 +41,7 @@ img {
   display: flex;
   flex-wrap: wrap;
   align-items: flex-end;
+  margin-bottom: 200px;
 }
 
 .textandimage img {
@@ -49,4 +50,5 @@ img {
 
 .textandimage .caption {
   width: 50%;
+  font-size: 20px;
 }
