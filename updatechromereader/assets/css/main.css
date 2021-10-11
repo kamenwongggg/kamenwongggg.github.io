@@ -52,3 +52,14 @@ img {
   width: 50%;
   font-size: 20px;
 }
+
+div.title{
+  font-size: 80px;
+  text-transform: capitalize;
+  text-align:left;
+  margin-top: 140px;
+  margin-bottom: 140px;
+  
+  
+
+}
