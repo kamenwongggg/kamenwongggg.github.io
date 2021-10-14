@@ -23,18 +23,22 @@ img {
 .small {
   width: 20%;
   margin-right: 30px;
+  
+ 
 }
 
 .large {
   width: 50%;
-  background-color: red;
+  background-color: rgb(0, 0, 0);
   overflow: scroll;
-  height: 100vh;
+  height: 200vh;
+  color:white;
 }
 
 .text {
   width: 50%;
   margin-bottom: 200px;
+  
 }
 
 .textandimage {
@@ -62,4 +66,51 @@ div.title{
   
 
 
+}
+
+
+/* home page */
+
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  height: 100px;
+}
+
+.line {
+  width:50%;
+  color: white;
+  margin-top: 10px;
+  
+
+  
+ 
+}
+
+.linesmall{
+  text-align: center;
+  width:50%;
+  font-size: 12px;
+  color: white;
+  margin-top: 40px;
+}
+
+.box2 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  height: 100px;
+  margin-top: 50px;
+}
+
+.box3 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  height: 100px;
+  margin-top: 50px;
 }
