@@ -41,8 +41,9 @@ img {
   width: 50%;
   background-color: rgb(0, 0, 0);
   overflow: scroll;
-  height: 200vh;
+  height: 100vh;
   color:white;
+  padding-left: 10px;
 }
 
 .text {
@@ -57,6 +58,7 @@ img {
   align-items: flex-end;
   margin-bottom: 200px;
 }
+
 
 .textandimage img {
   width: 50%;
