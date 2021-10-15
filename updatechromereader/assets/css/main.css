@@ -4,7 +4,7 @@ body {
 }
 
 a {
-	color:red;
+	color:rgb(0, 0, 0);
 }
 
 body {
@@ -24,8 +24,18 @@ img {
   width: 20%;
   margin-right: 30px;
   
+  
  
 }
+.small2 {
+  width: 20%;
+  margin-right: 30px;
+ 
+  
+ 
+}
+
+
 
 .large {
   width: 50%;
