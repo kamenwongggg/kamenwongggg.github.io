@@ -63,8 +63,9 @@ img {
 }
 
 .textandimage .caption {
-  width: 50%;
+  width: 40%;
   font-size: 20px;
+  margin-left: 8px;
 }
 
 div.title{
@@ -77,6 +78,20 @@ div.title{
 
 
 }
+
+a {
+  color:rgb(129, 129, 129);
+  text-decoration: none;
+  
+  
+  
+
+}
+
+a:hover{
+  color: rgb(255, 0, 0);
+}
+
 
 
 /* home page */
@@ -123,4 +138,17 @@ div.title{
   background-color: rgb(0, 0, 0);
   height: 100px;
   margin-top: 50px;
+}
+
+a {
+  color:rgb(129, 129, 129);
+  text-decoration: none;
+  
+  
+  
+
+}
+
+a:hover{
+  color: rgb(255, 0, 0);
 }
