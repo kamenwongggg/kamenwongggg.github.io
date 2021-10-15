@@ -1,6 +1,6 @@
 body {
-	font-family: Helvetica,Arial,sans-serif;
-	font-size: 32px;
+	font-family: Arial;
+	font-size: 27px;
 }
 
 a {
@@ -11,6 +11,11 @@ body {
   font-family: arial;
 }
 
+.font{
+  font-size:30px;
+  cursor:pointer;  
+}
+
 img {
   width: 100%;
 }
@@ -18,21 +23,55 @@ img {
 .container {
   display: flex;
   flex-wrap: wrap;
+  border-top: 1px solid black;
 }
 
 .small {
-  width: 20%;
-  margin-right: 30px;
-  
+  width: 24%;
+  margin-right: 1%;
+  padding: 10px;
   
  
 }
+
 .small2 {
   width: 20%;
   margin-right: 30px;
  
   
  
+}
+.title.smalltitle{
+  font-size:30px;
+  transition:1s;
+  cursor:pointer;  
+}
+
+div.title{
+  font-size: 170px;
+  text-transform: capitalize;
+  text-align:left;
+  margin-top: 10px;
+  margin-bottom: 100px;
+  transition:1s;
+  padding: 10px;
+  cursor:pointer;
+
+
+}
+
+
+
+
+.textandimage img{
+  width:50%;
+  cursor:pointer;
+  transition:1s;
+}
+
+.textandimage img.enlarge {
+  width:100%;
+  transition:1s;
 }
 
 
@@ -44,6 +83,7 @@ img {
   height: 100vh;
   color:white;
   padding-left: 10px;
+
 }
 
 .text {
@@ -68,18 +108,11 @@ img {
   width: 40%;
   font-size: 20px;
   margin-left: 8px;
+  border-bottom: 1px solid white;
+  padding-top: 5px;
 }
 
-div.title{
-  font-size: 80px;
-  text-transform: capitalize;
-  text-align:left;
-  margin-top: 140px;
-  margin-bottom: 140px;
-  
 
-
-}
 
 a {
   color:rgb(129, 129, 129);
@@ -104,24 +137,23 @@ a:hover{
   width: 100%;
   background-color: rgb(0, 0, 0);
   height: 100px;
+  
 }
 
 .line {
   width:50%;
   color: white;
   margin-top: 10px;
-  
-
-  
- 
+  padding: 10px;
 }
 
 .linesmall{
-  text-align: center;
+  text-align: right;
   width:50%;
-  font-size: 12px;
+  font-size: 14px;
   color: white;
-  margin-top: 40px;
+  margin-top: 10px;
+  padding: 10px;
 }
 
 .box2 {
