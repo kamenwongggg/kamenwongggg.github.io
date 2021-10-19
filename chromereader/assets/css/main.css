@@ -186,3 +186,10 @@ a {
 a:hover{
   color: rgb(255, 0, 0);
 }
+
+/* content page */
+
+.content{
+  margin-left: 5px;
+  border-top: 1px solid black;
+}
