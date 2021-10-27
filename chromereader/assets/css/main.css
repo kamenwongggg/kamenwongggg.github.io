@@ -142,8 +142,8 @@ a:hover{
   display: flex;
   flex-wrap: wrap;
   border-top: 1px solid black;
-  margin-top: 300px;
-  
+  margin-top: 200vh;
+  margin-bottom: 20px;
 }
 
 .small {
