@@ -24,6 +24,7 @@ img {
   display: flex;
   flex-wrap: wrap;
   border-top: 1px solid black;
+ 
 }
 
 .small {
@@ -135,6 +136,30 @@ a:hover{
   border-top: 1px solid black;
   width: 22.8%;
 }
+
+
+.containerbottom{
+  display: flex;
+  flex-wrap: wrap;
+  border-top: 1px solid black;
+  margin-top: 300px;
+  
+}
+
+.small {
+  width: 24%;
+  margin-right: 1%;
+  padding: 10px;
+
+
+}
+
+
+
+
+
+
+
 
 /* home page */
 
